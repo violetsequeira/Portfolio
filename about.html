@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Violet Portfolio website</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navToggle = document.getElementById('nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    });
+  </script>
+</head>
+
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo">Violet Sequeira</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link active">About Me</a></li>
+                    <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="departments.html" class="nav__link">Departments</a></li>
+                    <li class="nav__item"><a href="experience.html" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="photo.html" class="nav__link">Photo Gallery</a></li>
+                    <li class="nav__item"><a href="education.html" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+              </div>
+
+    </nav>
+  </header>
+
+<main>
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/about.jpg" alt="">
+            </div>
+            
+            <div>
+                <h2 class="about__subtitle">I am Violet Sequeira</h2>
+                <p class="about__text">Hello, and welcome to my Nursing Superintendent portfolio! I'm thrilled to have you here. Allow me to introduce myself:
+                    I am a dedicated Nursing Superintendent professional </p>           
+                <p>As an experienced and dedicated nursing superintendent, I have devoted my career to enhancing patient care, leading nursing teams, and fostering a culture of compassion and excellence in healthcare.</p> 
+                <p> With a deep-rooted passion for nursing, I am committed to ensuring the highest standards of patient safety and quality of care.</p>
+            </div>                                   
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__title">Violet Sequeira</p>
+        <div class="footer__social">   
+            <a href="https://www.linkedin.com/in/violet-sequeira-6055ab53/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.facebook.com/celine.sequeira.902" class="home__social-icon"><i class="bx bxl-facebook"></i></a>
+        </div>
+        <p class="footer__copy">&#169;  All rigths reserved</p>
+    </footer>
+
+</main>
